@@ -1,0 +1,8 @@
+.product{
+    background: pink;
+    border-radius: 10px;
+    margin: 10px;
+    display: block;
+    padding: 3px;
+    color: black;
+}
