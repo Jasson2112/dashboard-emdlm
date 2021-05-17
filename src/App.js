@@ -15,7 +15,7 @@ function App() {
           {/* Sidebar - Brand */}
           <a className="sidebar-brand d-flex align-items-center justify-content-center" href="/">
             <div className="sidebar-brand-icon">
-              <img className="w-100" src="assets/images/logo-DH.png" alt="Digital House" />
+              <img className="w-100" src="assets/images/Logo-EMDLM.png" alt="El Mundo De La Musica" />
             </div>
           </a>
           {/* Divider */}
@@ -23,8 +23,8 @@ function App() {
           {/* Nav Item - Dashboard */}
           <li className="nav-item active">
             <a className="nav-link" href="/">
-              <i className="fas fa-fw fa-tachometer-alt" />
-              <span>Dashboard - DH movies</span></a>
+              <i className="fas fa-music"/>
+              <span>Dashboard - EMDLM</span></a>
           </li>
           {/* Divider */}
           <hr className="sidebar-divider" />
@@ -58,39 +58,7 @@ function App() {
           {/* Main Content */}
           <div id="content">
             {/* Topbar */}
-            <nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-              {/* Sidebar Toggle (Topbar) */}
-              <button id="sidebarToggleTop" className="btn btn-link d-md-none rounded-circle mr-3">
-                <i className="fa fa-bars" />
-              </button>
-              {/* Topbar Navbar */}
-              <ul className="navbar-nav ml-auto">
-                {/* Nav Item - Alerts */}
-                <li className="nav-item dropdown no-arrow mx-1">
-                  <a className="nav-link dropdown-toggle" href="/" id="alertsDropdown">
-                    <i className="fas fa-bell fa-fw" />
-                    {/* Counter - Alerts */}
-                    <span className="badge badge-danger badge-counter">3+</span>
-                  </a>
-                </li>
-                {/* Nav Item - Messages */}
-                <li className="nav-item dropdown no-arrow mx-1">
-                  <a className="nav-link dropdown-toggle" href="/" id="messagesDropdown">
-                    <i className="fas fa-envelope fa-fw" />
-                    {/* Counter - Messages */}
-                    <span className="badge badge-danger badge-counter">7</span>
-                  </a>
-                </li>
-                <div className="topbar-divider d-none d-sm-block" />
-                {/* Nav Item - User Information */}
-                <li className="nav-item dropdown no-arrow">
-                  <a className="nav-link dropdown-toggle" href="/" id="userDropdown">
-                    <span className="mr-2 d-none d-lg-inline text-gray-600 small">Jordan Walke</span>
-                    <img className="img-profile rounded-circle" src="assets/images/jordan-walke.png" alt="Jordan Walke - Creador de React" width={60} />
-                  </a>
-                </li>
-              </ul>
-            </nav>
+            <img class= "bannerEMDLM" src="assets/images/Banner-principal-2.png" alt="Banner principal"></img>
             {/* End of Topbar */}
             {/* Content Row Top */}
             <div className="container-fluid">
@@ -164,7 +132,6 @@ function App() {
                       </div> */}
                       <LastProduct/>
                       {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur explicabo officia inventore libero veritatis iure voluptate reiciendis a magnam, vitae, aperiam voluptatum non corporis quae dolorem culpa citationem ratione aperiam voluptatum non corporis ratione aperiam voluptatum quae dolorem culpa ratione aperiam voluptatum?</p> */}
-                      <a className="btn btn-danger" target="_blank" rel="nofollow" href="/">View movie detail</a>
                     </div>
                   </div>
                 </div>
